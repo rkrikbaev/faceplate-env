@@ -1,0 +1,4 @@
+for item in *.erl
+do
+ erlc -I ../include -pa ../ebin -o ../ebin +debug_info $item
+done

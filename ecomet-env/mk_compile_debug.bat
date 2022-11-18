@@ -1,0 +1,1 @@
+FORFILES /m *.erl /c "cmd /c echo erlc -I ../include -pa ../ebin -o ../ebin +debug_info @file>>compile_debug.bat"
